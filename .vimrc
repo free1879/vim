@@ -35,3 +35,10 @@ inoremap <expr> <PageUp>   pumvisible() ? "\<PageUp>\<C-p>\<C-n>" : "\<PageUp>"
 " 自动补全
 let g:acp_completeoptPreview = 1
 
+
+
+" for python
+filetype off
+call pathogen#incubate()
+call pathogen#helptags()
+
